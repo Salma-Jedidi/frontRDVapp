@@ -1,0 +1,43 @@
+{
+    "messages": [
+      {"user": "Salut", "bot": "Salut,comment je peux vous aider?"},
+      {"user": "Bonjour", "bot": "Bonjour,comment je peux vous aider?"},
+      {"user": "Quels sont vos horaires d'ouverture?", "bot": "Nous sommes ouverts du lundi au vendredi de 9h a 18h."},
+        {"user": "Comment puis-je prendre rendez-vous?", "bot": "Vous pouvez prendre rendez-vous en ligne sur notre site web ou en nous appelant au numero XYZ."},
+        {"user": "Quels services proposez-vous?", "bot": "Nous proposons une gamme de services de sante, y compris XYZ. Pour plus de details, consultez notre site web."},
+        {"user": "Avez-vous des consultations en ligne?", "bot": "Oui, nous proposons des consultations en ligne. Veuillez consulter notre site web pour plus d'informations."},
+        {"user": "Quel est le coût d'une consultation?", "bot": "Le coût d'une consultation dépend du service. Pour obtenir des informations détaillées sur les tarifs, veuillez consulter notre site web ou nous contacter."},
+       
+        {"user": "Avez-vous des rendez-vous d'urgence?", "bot": "Oui, nous proposons des rendez-vous d'urgence. En cas d'urgence, veuillez nous appeler immediatement."},
+        {"user": "Quelles sont les mesures de sécurité COVID-19 que vous avez mises en place?", "bot": "Nous avons mis en place diverses mesures de sécurite pour assurer la protection de nos patients pendant la pandémie. Consultez notre site web pour plus de détails."},
+        {"user": "Quels types d'assurances acceptez-vous?", "bot": "Nous acceptons une varieté d'assurances. Veuillez vérifier sur notre site web ou nous appeler pour connaître les détails spécifiques."},
+        {"user": "Pouvez-vous me rappeler mon rendez-vous?", "bot": "Malheureusement, nous ne proposons pas actuellement de service de rappel automatique. Veuillez noter la date et l'heure de votre rendez-vous."},
+        {"user": "Comment puis-je annuler un rendez-vous?", "bot": "Vous pouvez annuler un rendez-vous en nous appelant au moins 24 heures à l'avance. Consultez notre politique d'annulation sur notre site web."},
+        {"user": "Avez-vous des promotions en ce moment?", "bot": "Consultez notre site web pour les promotions en cours ou contactez-nous directement."},
+        {"user": "Quels sont les spécialistes disponibles aujourd'hui?", "bot": "Pour connaître les spécialistes disponibles aujourd'hui, veuillez nous appeler."},
+        {"user": "Quels documents dois-je apporter à mon rendez-vous?", "bot": "Veuillez apporter une pièce d'identité, votre carte d'assurance maladie et tout document médical pertinent."},
+        {"user": "Pouvez-vous m'envoyer une confirmation de mon rendez-vous par e-mail?", "bot": "Oui, nous pouvons vous envoyer une confirmation de rendez-vous par e-mail. Veuillez nous fournir votre adresse e-mail lors de la prise de rendez-vous."},
+        {"user": "Quelle est votre politique d'annulation?", "bot": "Notre politique d'annulation stipule que vous devez annuler au moins 24 heures avant votre rendez-vous. Consultez notre site web pour plus de détails."},
+        {"user": "Pouvez-vous me donner des conseils pour ma santé?", "bot": "Nous ne pouvons fournir des conseils médicaux spécifiques qu'après une consultation. Pour des informations générales, consultez notre site web."},
+        {"user": "Comment puis-je obtenir mes résultats de test?", "bot": "Vous pouvez obtenir vos résultats de test en les demandant lors de votre prochain rendez-vous ou en les consultant en ligne via notre portail patient."},
+        {"user": "Quels sont les types de tests que vous proposez?", "bot": "Nous proposons une variété de tests médicaux, notamment XYZ. Pour plus d'informations, veuillez consulter notre site web."},
+        {
+          "user": "generaux",
+          "bot": "Conseils généraux de sante:\n- Maintenez une alimentation equilibrée riche en fruits, legumes, protéines maigres et grains entiers.\n- Restez hydraté en buvant suffisamment d'eau tout au long de la journée.\n- Faites de l'exercice régulièrement pour maintenir la santé cardiovasculaire et musculaire.\n- Assurez-vous de dormir suffisamment pour favoriser la récupération et le bien-être."
+        },
+        {
+          "user": "cardiologie",
+          "bot": "Conseils en cardiologie:\n- Evitez le tabac et limitez la consommation d'alcool.\n- Controlez regulierement votre pression arterielle et vos taux de cholesterol.\n- Adoptez un mode de vie actif pour maintenir la santé cardiaque."
+        },
+        {
+          "user": "dermatologie",
+          "bot": "Conseils en dermatologie:\n- Protégez votre peau du soleil en utilisant un écran solaire et en évitant une exposition excessive.\n- Surveillez les changements dans les taches, grains de beauté ou anomalies cutanées et consultez un dermatologue en cas de doute."
+        },
+        {
+          "user": "gynecologie",
+          "bot": "Conseils en gynecologie:\n- Effectuez des examens de dépistage réguliers tels que les frottis et les mammographies.\n- Utilisez des méthodes contraceptives appropriées si nécessaire.\n- Pratiquez l'auto-examen des seins pour détecter d'éventuels changements."
+        }
+    
+      ]
+  }
+  

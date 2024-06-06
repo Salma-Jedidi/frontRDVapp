@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Jost', sans-serif;
+      background: linear-gradient(to bottom, #0f0c29, #3264a6, #22304a);
+      background-image: url("../../assets/images/sante-connectee-et-defis-iot.jpg"); 
+      font-family: 'Calibri', 'Arial', sans-serif;
+      align-items:center;
+      height:120vh;
+  }
+  
+  .container {
+    width: 600px;
+    margin: 40px auto;
+    background-color: rgba(214, 223, 241, 0.9); /* Transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Larger box shadow */
+    transition: background-color 0.01s ease; /* Smooth transition for background color */
+    margin-left: 630px; 
+    margin-top: 80px;
+    height:105vh;
+  }
+  
+  .container:hover {
+    background-color: rgba(255, 255, 255, 1); /* Full white background on hover */
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input, select, textarea {
+   
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+	
+	button {
+    flex: 0 0 100%;
+	  max-width: 120px;
+	  height: 40px;
+    margin: 10px 3px 10px 0; 
+	  justify-content: center;
+	  display:  inline-block; 
+	  color: #fff;
+    background: linear-gradient(80deg, #3b508a, #506ca3e6);
+	  font-size: 1em;
+	  font-weight: bold;
+	  margin-top: 20px;
+    margin-left: 50px;
+	  outline: none;
+	  border: none;
+	  border-radius: 5px;
+	  transition: .2s ease-in;
+	  cursor: pointer;
+	}
+	
+	button:hover {
+	  background: linear-gradient(45deg, #4a44b8, #3b518a);
+  }
+  .about-us {
+   
+    padding: 50px 0;
+}
+
+.containe {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.containe img{
+    border-radius:20px;
+    height:200px;
+}
+.containe h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.containe p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.engagements {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.engagements h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.engagements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.engagements ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.engagements ul li strong {
+    font-weight: bold;
+}
+
+.container p:last-child {
+    margin-bottom: 0;
+}

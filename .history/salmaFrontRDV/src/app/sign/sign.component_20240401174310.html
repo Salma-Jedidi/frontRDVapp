@@ -1,0 +1,71 @@
+<body>
+	<div class="login-wrap">
+	  <div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+  
+		<div class="login-form">
+		  <div class="sign-in-htm">
+			<br>
+			<form (ngSubmit)="login(loginForm)" #loginForm="ngForm">
+			  <div class="group">
+				<label for="user" class="label">Login</label>
+				<input id="user" type="text" class="input" [(ngModel)]="user.email" name="user" required>
+			  </div>
+			  <div class="group">
+				<label for="pass" class="label">Mot de passe</label>
+				<input id="pass" type="password" class="input" data-type="password" [(ngModel)]="user.password" name="pass" required>
+			  </div>
+			  <br><br>
+			  <div class="group">
+				<input id="check" type="checkbox" class="check" checked>
+				<label for="check"><span class="icon"></span> Keep me Signed in</label>
+			  </div>
+			  <div class="group">
+				<button type="submit" class="button">Sign In</button>
+			  </div>
+			  <div class="hr"></div>
+			  <div class="foot-lnk">
+				<a (click)="onSubmit()">Mot de passe oublié?</a>
+			  </div>
+			</form>
+		  </div>
+		  <div class="sign-up-htm">
+			<br><br>
+			<div class="group">
+			  <label for="nom" class="label">Nom d'utilisateur</label>
+			  <input id="nom" type="text" class="input" [(ngModel)]="user.nom" required>
+			</div>
+  
+			<div class="group">
+			  <label for="email" class="label">L'adresse Email</label>
+			  <input id="email" type="email" class="input" [(ngModel)]="user.email" name="email" required>
+			</div>
+			<div class="group">
+			  <label for="password" class="label">Mot de passe</label>
+			  <input id="password" type="password" class="input" data-type="password" [(ngModel)]="user.password" name="password" required>
+			</div>
+  
+			<div class="group">
+			  <label for="role" class="label">Vous etes?</label>
+			  <select id="role" name="role" class="input" [(ngModel)]="user.role" required>
+				<option value="1">PATIENT</option>
+				<option value="2">MEDECIN</option>
+				<option value="3">SECRETAIRE</option>
+			  </select>
+			</div>
+			<br>
+			<div class="group">
+			  <button type="button" class="button" (click)="signup()">Sign Up</button>
+			</div>
+  
+			<div class="foot-lnk">
+			  <label for="tab-1">Vous etes deja un membre?</label>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<router-outlet *ngIf="showAccueil"></router-outlet>
+	<br><br>
+  </body>
